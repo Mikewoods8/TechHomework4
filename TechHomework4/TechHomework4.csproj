@@ -84,7 +84,14 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="images\allergy-relief.jpg" />
+    <Content Include="images\dewormer.jpg" />
+    <Content Include="images\flea-and-tick.jpg" />
+    <Content Include="images\Joint-Meds.jpg" />
+    <Content Include="images\pain-relief.jpg" />
     <Content Include="images\paw-print.jpg" />
+    <Content Include="images\probiotics.jpg" />
+    <Content Include="Medication.aspx" />
     <Content Include="PlaceOrder.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -109,6 +116,13 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Medication.aspx.cs">
+      <DependentUpon>Medication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medication.aspx.designer.cs">
+      <DependentUpon>Medication.aspx</DependentUpon>
     </Compile>
     <Compile Include="PlaceOrder.aspx.cs">
       <DependentUpon>PlaceOrder.aspx</DependentUpon>
