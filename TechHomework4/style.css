@@ -1,0 +1,9 @@
+﻿.main-bg {
+    background-image: url('images/paw-print.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.black-border {
+    border: 2px solid #000;
+}
