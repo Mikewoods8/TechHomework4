@@ -92,6 +92,7 @@
     <Content Include="images\paw-print.jpg" />
     <Content Include="images\probiotics.jpg" />
     <Content Include="Medication.aspx" />
+    <Content Include="Notifications.aspx" />
     <Content Include="PlaceOrder.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="Medication.aspx.designer.cs">
       <DependentUpon>Medication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications.aspx.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notifications.aspx.designer.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
     </Compile>
     <Compile Include="PlaceOrder.aspx.cs">
       <DependentUpon>PlaceOrder.aspx</DependentUpon>
